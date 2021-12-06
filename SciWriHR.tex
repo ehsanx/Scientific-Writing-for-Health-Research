@@ -1,0 +1,329 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Scientific Writing for Health Research},
+  pdfauthor={Ehsan Karim \& Dahn Jeong \& Fardowsa Yusuf},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+<script type="text/javascript">
+
+// toggle visibility of R source blocks in R Markdown output
+function toggle_R() {
+  var x = document.getElementsByClassName('r');
+  if (x.length == 0) return;
+  function toggle_vis(o) {
+    var d = o.style.display;
+    o.style.display = (d == 'block' || d == '') ? 'none':'block';
+  }
+
+  for (i = 0; i < x.length; i++) {
+    var y = x[i];
+    if (y.tagName.toLowerCase() === 'pre') toggle_vis(y);
+  }
+
+    var elem = document.getElementById("myButton1");
+    if (elem.value === "Hide Global") elem.value = "Show Global";
+    else elem.value = "Hide Global";
+}
+
+document.write('<input onclick="toggle_R();" type="button" value="Hide Global" id="myButton1" style="position: absolute; top: 10%; right: 2%; z-index: 200"></input>')
+
+</script>
+\usepackage{tcolorbox}
+\newtcolorbox{blackbox}{colback=black,colframe=orange,coltext=white,boxsep=5pt,arc=4pt}
+\usepackage{color}
+\usepackage{framed}
+\setlength{\fboxsep}{.8em}
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\title{Scientific Writing for Health Research}
+\author{Ehsan Karim \& Dahn Jeong \& Fardowsa Yusuf}
+\date{2021-12-06}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\newenvironment{blackbox}{
+  \definecolor{shadecolor}{rgb}{0, 0, 0}  % black
+  \color{white}
+  \begin{shaded}}
+ {\end{shaded}}
+
+\hypertarget{preface}{%
+\chapter*{Preface}\label{preface}}
+\addcontentsline{toc}{chapter}{Preface}
+
+\hypertarget{background}{%
+\section*{Background}\label{background}}
+\addcontentsline{toc}{section}{Background}
+
+\hypertarget{goal}{%
+\section*{Goal}\label{goal}}
+\addcontentsline{toc}{section}{Goal}
+
+\hypertarget{philosophy}{%
+\section*{Philosophy}\label{philosophy}}
+\addcontentsline{toc}{section}{Philosophy}
+
+\hypertarget{pre-requisites}{%
+\section*{Pre-requisites}\label{pre-requisites}}
+\addcontentsline{toc}{section}{Pre-requisites}
+
+\hypertarget{version-history}{%
+\section*{Version history}\label{version-history}}
+\addcontentsline{toc}{section}{Version history}
+
+Feel free to \href{https://ehsank.com/}{reach out} for any comments, corrections, suggestions.
+
+\hypertarget{contributor-list}{%
+\section*{Contributor list}\label{contributor-list}}
+\addcontentsline{toc}{section}{Contributor list}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+& \\
+\midrule
+\endhead
+\bottomrule
+\end{longtable}
+
+Dahn Jeong \textbar{} SPPH, UBC \textbar{}\\
+Fardowsa Yusuf \textbar{} SPPH, UBC \textbar{}\\
+\href{https://ehsank.com/}{Ehsan Karim} \textbar{} SPPH, UBC \textbar{}
+
+\hypertarget{license}{%
+\section*{License}\label{license}}
+\addcontentsline{toc}{section}{License}
+
+\includegraphics[width=0.25\linewidth]{images/by-nc-sa}
+
+The online version of this book is licensed under the \href{https://creativecommons.org/licenses/by-nc-sa/4.0/}{Creative Commons Attribution-NonCommercial-ShareAlike 4.0} International License. You may share, adapt the content and may distribute your contributions under the same license (CC BY-NC-SA 4.0), but you have to give appropriate credit, and cannot use material for the commercial purposes.
+
+\begin{rmdcomment}
+\textbf{How to cite}
+
+Karim, ME and Frank, H (2021) ``R Guide for TMLE in Medical Research'',
+URL:
+\href{https://ehsanx.github.io/TMLEworkshop/}{ehsanx.github.io/TMLEworkshop/},
+(v1.1). Zenodo. \url{https://doi.org/10.5281/zenodo.5246085}
+\end{rmdcomment}
+
+\hypertarget{introduction-section}{%
+\chapter{Introduction Section}\label{introduction-section}}
+
+A scientific research paper generally follows the format of IMRaD (Introduction, Methods, Results and Discussion). The introduction section sets the stage for the entire paper and introduces the topic of interest to the audience. This first section provides a broad context of the issue under investigation, summarizes what is known and unknown, and tries to convince the readers that this particular study will be a valuable addition to current knowledge.
+
+There are several guidelines suggesting how to best structure the introduction section for a research paper \citep[p.84-88]{cals2013effective, bahadoran2018principles, heard2016scientist}. Typically, a well-written introduction section will contain broader background information on the topic, a summary of key existing knowledge relevant to the specific problem, the gap in the current knowledge (rationale), and the research question and/or the hypothesis. Though not essential, some authors may opt to briefly describe the study design and methods.
+
+\hypertarget{funnel-shape}{%
+\section{Funnel shape}\label{funnel-shape}}
+
+To better organize the main components of the introduction, it may be useful to build an outline or a skeleton of the section. One approach could be adopting a ``funnel shape'' or an inverted pyramid shape to organize the components. Based on the funnel shape, the introduction section has five key elements going from broad to narrow: big picture, what is known, what is unknown, research question and methods/design (see Figure 1).
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.25\linewidth]{images/funnel} 
+
+}
+
+\caption{The typical funnel shape of an Introduction section.}\label{fig:funnel}
+\end{figure}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Big picture}: the introduction starts with the big picture, represented by the broad opening of the funnel shape. The big picture introduces the general context of the research area and provides an overview of ``why this topic or issue is important.'' For a research paper in population and public health, it is a good idea to present the broader background information on the health-related topic. This may include the magnitude of the problem and/or the burden of disease (e.g., incidence, prevalence or cost). The big picture should provide the audience with an understanding of the study outcome or explanatory variable from a public health perspective.
+\item
+  \textbf{What is known}: from the big picture, the author narrows down to a more specific research area under investigation. This part should outline the existing knowledge of the research area by providing a summary of the evidence, including the landmark and recent studies. This summary should cite the most current and comprehensive knowledge on the subject. Remember that the evidence cited should be directly relevant to your specific study and inform your research question. These summaries should focus on the particular exposure or disease of interest (e.g., intervention or outcome elements of the PICOT framework) \citep{thabane2009posing}.
+\item
+  \textbf{What is unknown}: as the funnel further narrows, this part should present a synthesis of the reasons why the issue is important (in the big picture), what is already known, and what is unknown, to convince the audience that there is a need to conduct your specific study. This part can include the gaps in current knowledge, any inconsistencies in the literature, gaps in the methodology or the need for different or better methodology. When describing what is unknown, the author should highlight the importance of conducting the present study and persuade the readers that this analysis was needed (rationale). Who would likely benefit from this study should also be highlighted. For example, if there is a previous study that answered the same research question, a clear and compelling argument on the need for the updated study should be included.
+\item
+  \textbf{Research question}: following the identification of the gap in current knowledge, this part outlines the specific purpose of the study. It should include the study objective and/or hypothesis that will address the identified gap in current knowledge.
+\item
+  \textbf{Methods/design}: as the last stage of the funnel, this part can briefly introduce the approach used to answer the research question. This can include the study design or methods, however, a brief summary is sufficient as the methodological approach will be described in depth in the methods section.
+\end{enumerate}
+
+\hypertarget{examples}{%
+\section{Examples}\label{examples}}
+
+\hypertarget{example-1}{%
+\subsection{Example 1}\label{example-1}}
+
+The first example is taken from \citet{nisingizwe2020perceived}. You can download the open access PDF from \href{https://bmcpregnancychildbirth.biomedcentral.com/track/pdf/10.1186/s12884-020-2775-8.pdf}{here}.
+
+Table 1: A study about the association between perceived barriers to health care access and inadequate antenatal care visits \citep{nisingizwe2020perceived}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.15}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.25}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.60}}@{}}
+\toprule
+Elements & Location in the Introduction section & Comments \\
+\midrule
+\endhead
+Big picture & 1st paragraph (\emph{``Maternal and neonatal mortality \ldots{}''}) & Authors introduce the public health problem of interest, maternal and neonatal mortality, by presenting the magnitude of the problem and the burden of disease. This paragraph highlights the importance of the public health problem. \\
+What is known & 2nd paragraph (\emph{``Timely and frequency of ANC \ldots{}''}) & The authors describe the more specific research area: the relationship between receiving adequate antenatal care (ANC) and barriers to healthcare. \\
+& 3rd paragraph (\emph{``However, the country' maternal and neonatal death rates \ldots{}''}) & The authors provide a summary of the existing knowledge relevant to the study that informs the research question. \\
+What is unknown & 4th paragraph (\emph{``To date, there is a paucity \ldots{}''}) & The authors present what is unknown: the relationship between perceived barriers to health care and inadequate ANC visits in Rwanda. In addition, they identify previous studies and the gaps in the current knowledge. The clear identification of a research gap supports the stated rationale for conducting this particular study. \\
+Research question & 4th paragraph (\emph{``Therefore, this study aims \ldots{}''}) & Following the identification of the gap in current knowledge, the authors present the specific purpose of the study. \\
+& 5th paragraph (\emph{``We hypothesized that \ldots{}''}) & The authors present the hypothesis for the research question. \\
+& 5th paragraph (\emph{``This study will contribute to \ldots{}''}) & the authors include a brief summary of the key study implications to convince the audience that this research paper will add value to the field of study. \\
+Methods/design & & The authors have not included a specific section summarizing the methodological approach used in the study to answer the research question. However, in the 4th paragraph, they indicated that the study will use a ``country representative sample'' from ``2015 DHS data''. \\
+\bottomrule
+\end{longtable}
+
+\hypertarget{example-2}{%
+\subsection{Example 2}\label{example-2}}
+
+The second example is taken from \citet{basham2019multimorbidity}. You can download the open access PDF from \href{https://www.tandfonline.com/doi/epub/10.1080/22423982.2019.1607703}{here}.
+
+Table 1: A study about prevalence of multimorbidity in northern vs.~southern Canada \citep{basham2019multimorbidity}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.15}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.25}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.60}}@{}}
+\toprule
+Elements & Location in the Introduction section & Comments \\
+\midrule
+\endhead
+Big picture & 1st paragraph (\emph{``Multimorbidity is common among \ldots{}''}) & The public health problem of interest, multimorbidity, is introduced along with the magnitude of the problem and the burden of disease. \\
+What is known and unknown & 2nd paragraph (\emph{``Northern Canada, which \ldots{}''}) and 3rd paragraph (\emph{``The equivocacy of findings \ldots{}''}) & The more specific research area, multimorbidity in Canadian provinces and territories, is contextualized. The authors provide a summary of relevant previous studies and highlight the gaps within these studies. The synthesis of the ``big picture,'' ``what is known'' and ``what is unknown'' elements supports the rationale for this particular study. \\
+& & \\
+Research question & 3rd paragraph (\emph{``The primary aim of this study \ldots{}''}) & Once the need for this particular study is identified, the authors present the specific research question and the hypothesis. \\
+Methods/design & 3rd paragraph (\emph{``This study describes multimorbidity \ldots{}''}) & The authors briefly mention the methodological approach used in the study. \\
+\bottomrule
+\end{longtable}
+
+Through these 2 examples, we have looked at the key elements of an introduction section of a scientific article in population and public health research. The introduction section provides the general context of the topic (big picture), the narrower research area and what is known, the gap in the existing knowledge, the specific purpose of the study and a summary of the methods and design.
+
+\hypertarget{importance-of-a-hook}{%
+\subsection{Importance of a `hook'}\label{importance-of-a-hook}}
+
+As the author and researcher, you have the knowledge of the ``whole story'' of your study from start to end. Hence, you can write the introduction strategically. The introduction section introduces the public health problem to the audience and tries to capture their interest to continue reading. In a newspaper or magazine article, the writer aims to grab the readers' attention with a ``hook'' at the beginning. In a scientific article, although you don't necessarily want to give out all the findings and study implications initially, you should utilize the introduction section to incite the readers' and reviewers' interest. By clearly outlining the key components, the introduction section should convince the audience that the population/public health issue under investigation is critical to address and that your particular study is novel and valuable.
+
+\hypertarget{common-pitfalls}{%
+\section{Common pitfalls}\label{common-pitfalls}}
+
+\begin{itemize}
+\tightlist
+\item
+  Common pitfalls in the introduction section include \emph{incomplete, inaccurate or outdated reviews of the literature} on the topic. For example, including literature that is tangentially related or within the same field but not directly related to the problem, may result in an incomplete or confusing review of the background knowledge. Including inadequate, incomplete or outdated information may result in the rejection of the paper.
+\item
+  Not adequately explaining the \emph{importance or the relevance of the current knowledge in relation to the study aims} is another pitfall. This can lead to an introduction section that is less effective in communicating the relevancy and novelty of your study.
+\end{itemize}
+
+\hypertarget{tips}{%
+\section{Tips:}\label{tips}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Arguably, incorporating \emph{clear study aim(s)} and \emph{rationales for the study objectives} are the most important aspects of the introduction section. (i) Aims should be clearly articulated, and the design of the study should be planned accordingly. (ii) Take time to think about the justification of the current study.
+\item
+  Provide only the \emph{key references} that are needed to describe the background knowledge, as well as what is known and unknown about the topic of interest. Including an excessive amount of literature in the introduction can be distracting. Be mindful that you will have an opportunity to contextualize your research in the literature by comparing your findings with other studies in the Discussion section. The introduction should be focused on setting the tone for what is coming next.
+\item
+  A lengthy introduction can also make the readers lose interest. A general suggestion is that the introduction section should be about 10-15\% of the whole paper \citep{cals2013effective}.
+\item
+  If you already have a general idea of the journals that you would like to submit your article to, the introduction can be tailored to the audience of the target journal. For example, if you are interested in submitting to journals with a heavier focus on methodology or epidemiology, you may want to highlight the novelties in the design or methods. If you are interested in submitting to clinician-focused or subject-specific journals, you may emphasize the clinical or public health implications of the study.
+\end{enumerate}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{0}{0}
+\end{CSLReferences}
+
+  \bibliography{book.bib,packages.bib}
+
+\end{document}

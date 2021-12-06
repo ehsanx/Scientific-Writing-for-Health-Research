@@ -1,0 +1,90 @@
+--- 
+title: "Scientific Writing for Health Research"
+author: "Ehsan Karim & Dahn Jeong & Fardowsa Yusuf"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output:
+  bookdown::html_document2:
+    includes:
+      in_header: header.html
+      css: [style.css]
+  bookdown::gitbook:
+    includes:
+      in_header: header.html
+  bookdown::pdf_book:
+    includes:
+      in_header: header.html
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: ehsanx/Scientific-Writing-for-Health-Research
+description: "Scientific Writing for Health Research"
+header-includes: 
+  - \usepackage{tcolorbox}
+  - \newtcolorbox{blackbox}{colback=black,colframe=orange,coltext=white,boxsep=5pt,arc=4pt}
+  - \usepackage{color}
+  - \usepackage{framed}
+  - \setlength{\fboxsep}{.8em}
+---
+
+\newenvironment{blackbox}{
+  \definecolor{shadecolor}{rgb}{0, 0, 0}  % black
+  \color{white}
+  \begin{shaded}}
+ {\end{shaded}}
+
+# Project Summary {-}
+
+SPPH 504-007 is a required Ph.D. level UBC credit course for SPPH students. One of the components of this course has a focus on scientific communication. Specifically, communicating with the scientific community about an epidemiological study that has been designed to answer a particular health research question and appropriately interpreting the study results. Students write a research article suitable for submission to an academic peer-reviewed health journal for publication. However, a general challenge of teaching scientific communication is that most of the associated teaching materials and references are either overly general (not discipline-specific, do not take into account applications to healthcare), or not openly accessible (expensive textbooks). Also, SPPH students have varying academic backgrounds, and many are not familiar with new scientific writing collaboration tools that 
+
+(i) are helpful for managing collaborative projects and
+(ii) can aid in conducting reproducible research. 
+
+This OER project will allow us to make the course content open to other UBC health researchers who struggle with scientific writing and introduce them to tools that will help them manage collaborative group research projects.
+   
+The project aims to create and share openly accessible high-quality OER content through a step-by-step educational guide on how to write scientific articles for peer-reviewed journals, with a specific focus on communicating with the health research community. Specific topics include:
+   
+1. Scientific writing basics, components of a good research question
+2. Writing the ‘Introduction’ section, identifying a gap in the literature
+3. Writing the ‘Methods’ section, describing the data sources/collection, study design, and statistical analysis
+4. Presenting tables and figures, and writing the ‘Results’ section
+5. Writing the ‘Discussion’ section, interpreting results, stating the implications, strengths and limitations of the study, and future research
+6. Introducing tools for managing collaborative scientific writing projects and reproducible research (e.g., RMarkdown, GitHub).
+
+## Project Goals  {-}
+ 
+**Background**: The principal applicant is teaching a UBC course (SPPH 504-007). In this course, one of the components is the communication of scientific research findings through scientific writing. The specific goals are stated below.
+   
+**Goals**: The goals of the project are to (1) create and update course content and materials as open educational resources (OERs), and (2) openly share a step-by-step guide (i.e., written OER content, primarily text) on how to write scientific articles for peer-reviewed journals (in the “IMRaD” format; structured in the following sections: Introduction, Methods, Results, and Discussion). (3) Introduce some cutting-edge tools helpful for managing collaborative scientific writing projects and conducting reproducible research (e.g., RMarkdown, GitHub).
+   
+**Implication**: One obvious implication is increased accessibility to students. Currently, the course SPPH 504-007 is restricted to SPPH Ph.D. students. If this rapid grant project is successful, this content will be openly accessible and will potentially help health researchers across campus interested in publishing manuscripts on their health data research. Examples of people who will directly benefit from this open access project include: SPPH master’s students (e.g., MSc, MPH, MHA, who cannot currently register for this course), researchers from all the Departments in the UBC Faculty of Medicine, and any other Departments with researchers that conduct healthcare and biomedical data analysis and research.
+   
+**Format**: Content will primarily be text, that will be placed on an openly accessible GitHub page. Where necessary, tables, pictures and multi-media will be included. Short videos will be embedded to summarize important sections of the content. 
+
+## Version history {-}
+
+Initial outlines were created for SPPH 504-007 during 2018-2021. In 2021, though OER Fund Rapid Innovation Grant and WorkLearn program, a GRA was hired to convert the outlines to drafts, that were revised and updated by other contributors.
+
+Feel free to [reach out](https://ehsank.com/) for any comments, corrections, suggestions.
+
+## Contributor list {-}
+
+|||
+|---|---|
+| Dahn Jeong |  SPPH, UBC |
+| Fardowsa Yusuf | SPPH, UBC |
+| [Ehsan Karim](https://ehsank.com/) |  SPPH, UBC |
+## License {-}
+
+```{r, echo=FALSE, out.width="25%"}
+knitr::include_graphics("images/by.png")
+```
+
+The online version of this book is licensed under the [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) International License. You may share, and adapt the content.
+
+```{block, type='rmdcomment'}
+**How to cite**
+
+[To be added later]
+```
