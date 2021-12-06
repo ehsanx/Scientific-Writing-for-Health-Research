@@ -2,6 +2,7 @@ fig:funnel
 research-question
 picot
 finer
+statistical-analysis-plans
 introduction-section
 funnel-shape
 examples
@@ -21,3 +22,4 @@ responding-to-reviewer-comments
 collaborative-tools
 rmarkdown
 github
+the-bridge

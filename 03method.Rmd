@@ -1,2 +1,15 @@
 # Methods Section
 
+Based on the IMRaD (Introduction, Methods, Results and Discussion) format discussed previously, the second section of a scientific research paper is the methods. The purpose of the methods section is to provide a comprehensive picture of the methodological approach of the study in a straightforward and transparent manner. Broadly, the methods section should allow the readers to understand the dataset under consideration and the analytical steps undertaken in the study, and give a sense of reproducibility of the study (1,2). 
+
+## The “Bridge”
+
+Following the introduction section, the methods section connects the previously developed research question to the results section and equips the readers with all methodological details necessary to interpret the findings that will be presented in the next section. As such, the methods section is the “bridge” between the introduction and the results section. Typically, the main elements of a methods section are: study design and data collection; setting, analytic sample and variables; data and statistical analysis. 
+
+Furthermore, breaking the methods section into sub-sections can be a helpful way to present the methodological approach in an organized fashion. The main elements of the methods section can be presented as sub-sections.
+
+1.	Statement of study design and data collection: the study design (e.g. cohort study, cross-sectional study, etc) and other key elements of the study design should be mentioned early in the methods. The data source(s) and how data was collected should be detailed.
+
+  a.	Sampling strategy: for cross-sectional studies, it is recommended to describe the sampling design for the data source.
+
+
