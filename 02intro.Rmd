@@ -34,7 +34,7 @@ The first example is taken from @nisingizwe2020perceived. You can download the o
 tabl <- '
 Table 1: A study about the association between perceived barriers to health care access and inadequate antenatal care visits [@nisingizwe2020perceived]
 
-| Elements      |  Location in the Introduction section   | Comments |
+| Elements      |  Location in the introduction section   | Comments |
 | --- | :---: |:----------- |
 | Big picture   | 1st paragraph (*"Maternal and neonatal mortality ..."*)  |  Authors introduce the public health problem of interest, maternal and neonatal mortality, by presenting the magnitude of the problem and the burden of disease. This paragraph highlights the importance of the public health problem. |  
 | What is known   |   2nd paragraph (*"Timely and frequency of ANC ..."*)     |   The authors describe the more specific research area: the relationship between receiving adequate antenatal care (ANC) and barriers to healthcare.       |
@@ -56,7 +56,7 @@ The second example is taken from @basham2019multimorbidity. You can download the
 tabl2 <- '
 Table 1: A study about prevalence of multimorbidity in northern vs. southern Canada [@basham2019multimorbidity]
 
-| Elements      |  Location in the Introduction section   | Comments |
+| Elements      |  Location in the introduction section   | Comments |
 | --- | :---: |:----------- |
 | Big picture   | 1st paragraph (*"Multimorbidity is common among  ..."*)  |  The public health problem of interest, multimorbidity, is introduced along with the magnitude of the problem and the burden of disease.  |  
 | What is known and unknown  |   2nd paragraph (*"Northern Canada, which  ..."*)  and 3rd paragraph (*"The equivocacy of findings ..."*)   |   The more specific research area, multimorbidity in Canadian provinces and territories, is contextualized. The authors provide a summary of relevant previous studies and highlight the gaps within these studies. The synthesis of the “big picture,” “what is known” and “what is unknown” elements supports the rationale for this particular study.
