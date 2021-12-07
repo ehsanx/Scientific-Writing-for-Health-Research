@@ -1,6 +1,6 @@
 # Methods Section
 
-Based on the IMRaD (Introduction, Methods, Results and Discussion) format discussed previously, the second section of a scientific research paper is the methods. The purpose of the methods section is to provide a comprehensive picture of the methodological approach of the study in a straightforward and transparent manner. Broadly, the methods section should allow the readers to understand the dataset under consideration and the analytical steps undertaken in the study, and give a sense of reproducibility of the study (1,2). 
+Based on the IMRaD (Introduction, Methods, Results and Discussion) format discussed previously, the second section of a scientific research paper is the methods. The purpose of the methods section is to provide a comprehensive picture of the methodological approach of the study in a straightforward and transparent manner. Broadly, the methods section should allow the readers to understand the dataset under consideration and the analytical steps undertaken in the study, and give a sense of reproducibility of the study [@annesley2010and;@kotz2013effective]. 
 
 ## The “Bridge”
 
@@ -20,17 +20,17 @@ Furthermore, breaking the methods section into sub-sections can be a helpful way
 
 3.	**Data/statistical analysis:** all statistical methods used for descriptive and inferential analyses should be described, including the methods used to control for confounding. If you have conducted sensitivity analyses, these should be described. The methods section should contain descriptions of statistical approach used for all findings presented in the results section. In general, the statistical program or software and the packages used are also stated in this section.
 
-When writing a scientific paper in epidemiology or in population and public health, the STROBE checklist (3) can be a helpful tool to ensure that you are reporting all necessary components in the methods section. Below we will have a look at two examples of papers presenting survey-based analysis with the STROBE checklist.
+When writing a scientific paper in epidemiology or in population and public health, the STROBE checklist [@von2007strengthening] can be a helpful tool to ensure that you are reporting all necessary components in the methods section. Below we will have a look at two examples of papers presenting survey-based analysis with the STROBE checklist.
 
 ## Examples
 
 ### Example 1
 
-This example is taken from Nikiforuk et al. (4), which was based on the NHANES data. You can download the open access PDF from [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8278694/pdf/12889_2021_Article_11267.pdf). 
+This example is taken from @nikiforuk2021influence, which was based on the NHANES data. You can download the open access PDF from [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8278694/pdf/12889_2021_Article_11267.pdf). 
 
-```{r example1, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+```{r example31, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
 tabl <- '
-Table 1: A study about chronic hepatitis C infection and monocyte-to-platelet ratio 
+Table 1: A study about chronic hepatitis C infection and monocyte-to-platelet ratio [@nikiforuk2021influence]
 
 |     Elements    	|     Location   in the methods section    	|     Comments    	|
 | --- | :---: |:----------- |
@@ -49,11 +49,11 @@ cat(tabl) # output the table in a format good for HTML/PDF/docx conversion
 
 ### Example 2
 
-This example is taken from Nethery et al. (5), which was based on the CCHS data. You can download the open access PDF from [here](https://www.cmajopen.ca/content/cmajo/7/4/E646.full.pdf). 
+This example is taken from @nethery2019household, which was based on the CCHS data. You can download the open access PDF from [here](https://www.cmajopen.ca/content/cmajo/7/4/E646.full.pdf). 
 
-```{r example2, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+```{r example32, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
 tabl2 <- '
-Table 2: A study about the household income and contraceptive methods
+Table 2: A study about the household income and contraceptive methods [@nethery2019household]
 
 |     Elements    	|     Location   in the methods section    	|     Comments    	|
 | --- | :---: |:----------- |
@@ -61,7 +61,7 @@ Table 2: A study about the household income and contraceptive methods
 |     Setting    	|  The   sub-section titled “data source, design and study population” 	|     The   data source for the study, CCHS, is described including the target   population, location, timeframe, response rates and sampling design.    	|
 |     Participants    	|     The   sub-section titled “analytic sample”    	|     The   authors describe how the analytic dataset was drawn from the CCHS data   including the inclusion and exclusion criteria. As in the first example, the   authors include a flowchart as Figure 1 to illustrate who were   included/excluded at each stage, resulting in the analytic sample.    	|
 |     Variables    	|     The   sub-sections titled “outcome variables” and “exposure variable”    	|     The   definitions of outcome and exposure variables are stated clearly. The authors   provide additional details on the outcome variables, including some potential   sources of bias, which enhances the readers ability to interpret the   findings. The authors also explain how the exposure variable was   dichotomized.    	|
-|     Data   sources/measurement    	|  	|     The   authors outline specific questions from the CCHS (data source) that were used   to derive the outcome and exposure variables.    	|
+|     Data   sources/measurement    	|  The   sub-sections titled “outcome variables” and “exposure variable”	|     The   authors outline specific questions from the CCHS (data source) that were used   to derive the outcome and exposure variables.    	|
 |     Bias    	|     The   sub-sections titled “statistical analysis” and “sensitivity analysis”    	|     The   authors describe some of the methods that were used to mitigate potential   confounding (e.g. use of survey weights, multiple imputation, sensitivity   analyses).           The   authors also provide the explanation behind the selection of confounders, providing   background references.    	|
 |     Study   size    	|     Figure   1    	|     As in   the first example, Figure 1 presents all people who were excluded at each   stage and the remaining analytic sample size.    	|
 |     Quantitative   variables    	|     N/A    	|     The   key outcome and explanatory variables in this study were binary. In the   “statistical analysis” sub-section, it is mentioned that the “age” variable   is included as a confounder, and it isn’t clear whether this was a continuous   or a categorical variable. However, this is neither key outcome nor   explanatory variable, so the level of detail is perhaps not required.     	|
@@ -73,7 +73,7 @@ cat(tabl2) # output the table in a format good for HTML/PDF/docx conversion
 
 ## Significance of the methods section in population and public health research paper
 
-In population and public health, the methods section of the research paper should enable readers to assess the internal and external validity of the study. It should provide all the necessary information to understand in which ways the authors have made efforts to try to address their research question as accurately as possible. As Rothman et al. describes, generally the goal of epidemiologic research is to “obtain a valid and precise estimate of the frequency of a disease or of the effect of an exposure on the occurrence of a disease in the source population of the study” (6). In addition, as the introduction section would have described the importance of the research question in relation to the population and public health, researchers often aim to generalize the study findings to the relevant population groups. By providing clear and adequate information about the target population and how the study sample was selected from the source population, the methods section allows the readers to assess the generalizability of the study findings. 
+In population and public health, the methods section of the research paper should enable readers to assess the internal and external validity of the study. It should provide all the necessary information to understand in which ways the authors have made efforts to try to address their research question as accurately as possible. As Rothman et al. describes, generally the goal of epidemiologic research is to “obtain a valid and precise estimate of the frequency of a disease or of the effect of an exposure on the occurrence of a disease in the source population of the study” [@rothman2008validity, p.128–47]. In addition, as the introduction section would have described the importance of the research question in relation to the population and public health, researchers often aim to generalize the study findings to the relevant population groups. By providing clear and adequate information about the target population and how the study sample was selected from the source population, the methods section allows the readers to assess the generalizability of the study findings. 
 
 As such, a well-written methods section in a research paper in population and public health should contain necessary information about the analytical steps undertaken in the study, and sufficient description of the study design and target population to enable readers to understand what some of the potential sources of bias in the study are, and what measures were taken to minimize the bias. This allows the readers to interpret the internal and external validity of the study. A well-written methods section provides credibility and validity of the results and conclusions of the study.
 
@@ -92,13 +92,4 @@ After reading the methods section, the readers should have an understanding of t
 2. The methods section should also include a statement on the ethical approval or any other ethical considerations. 
 3. It’s often a good idea to include a citation for the statistical test or method, if this is relatively unknown to the readers. This can also increase the credibility of the methods presented.
 4. Some journals focused on patient-oriented research encourage researchers to include any processes or efforts that were made to include patients or the community members during research. If patients or community members were involved in the study at any step, it can be a good idea to describe what their involvement was.
-
-## References
-
-1. 	Annesley TM. Who, what, when, where, how, and why: The ingredients in the recipe for a successful methods section [Internet]. Vol. 56, Clinical Chemistry. Oxford Academic; 2010 [cited 2021 Sep 19]. p. 897–901. Available from: https://academic.oup.com/clinchem/article/56/6/897/5622467
-2. 	Kotz D, Cals JWL. Effective writing and publishing scientific papers, part IV: Methods [Internet]. Vol. 66, Journal of Clinical Epidemiology. Elsevier; 2013 [cited 2021 Sep 19]. p. 817. Available from: http://www.jclinepi.com/article/S089543561300019X/fulltext
-3. 	Von Elm E, Altman DG, Egger M, Pocock SJ, Gøtzsche PC, Vandenbroucke JP. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: Guidelines for reporting observational studies. PLoS Med. 2007 Oct;4(10):1623–7. 
-4. 	Nikiforuk AM, Karim ME, Patrick DM, Jassem AN. Influence of chronic hepatitis C infection on the monocyte-to-platelet ratio: data analysis from the National Health and Nutrition Examination Survey (2009–2016). BMC Public Health [Internet]. 2021 Jul 13 [cited 2021 Sep 19];21(1):1–11. Available from: https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-021-11267-w
-5. 	Nethery E, Schummers L, Maginley KS, Dunn S, Norman W V. Household income and contraceptive methods among female youth: a cross-sectional study using the Canadian Community Health Survey (2009–2010 and 2013–2014). Can Med Assoc Open Access J [Internet]. 2019 Oct 1 [cited 2021 Sep 19];7(4):E646–53. Available from: https://www.cmajopen.ca/content/7/4/E646
-6. 	Rothman KJ, Greenland S, Lash TL. Validity in epidemiologic studies. In: Modern Epidemiology: Third Edition. 3rd ed. Lippincott Williams & Wilkins; 2011. p. 128–47. 
 
