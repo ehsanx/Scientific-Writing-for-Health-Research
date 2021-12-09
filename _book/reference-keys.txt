@@ -20,6 +20,11 @@ significance-of-the-methods-section-in-population-and-public-health-research-pap
 common-pitfalls-1
 tips-1
 tables-and-figures
+designing-a-table
+designing-a-figure
+tables-and-figures-in-population-and-public-health-research-papers
+common-pitfalls-2
+tips-2
 results-section
 discussion-section
 title-and-abstract

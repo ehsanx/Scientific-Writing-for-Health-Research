@@ -1,2 +1,68 @@
 # Tables and Figures
 
+So far, we have looked at the components of the introduction and the methods sections of a scientific research paper. Before looking at all the components of the results section, we will discuss the most crucial elements of the results section, and perhaps of the entire research paper, the tables and figures. Tables and figures are an integral part of a scientific article as they give an overview of the results obtained from the analyses. For many readers, reviewers and editors, these are the first elements they will look at when reading a paper. Therefore, well designed tables and figures are an effective tool to convey findings and can make a great impression on the readers even before they dive into the paper. 
+
+It is widely known that tables and figures are an efficient way to present the key study findings [@kotz2013effective4]. Kotz and Cals [@kotz2013effective4] suggest planning on which findings to portray in the tables and figures early in the writing process. Once this is determined, the most important aspect when designing the tables and figures is that they should be ‘standalone’, or self-explanatory. The readers should gain a complete understanding of the message you are trying to convey just by looking at the table or the figure. To help with this, there are a few recommended guidelines for designing tables and figures.
+
+Below we discuss the components that can optimize the tables and figures in a scientific research article in the field of population and public health.
+
+## Designing a table
+
+As discussed, tables in a scientific paper should be concise, but standalone. Tables must be accompanied with an informative title, descriptive column headers and descriptive row labels. A footnote should also be included that explains any abbreviations used and the analyses that were applied to produce the results in the table. 
+
+-	**Titles:** titles should be self-contained and informative. According to the American Journal of Epidemiology, titles should include details on the location of the study, the time period over which the study was conducted and the study population [@aje2021instructions]. Even if including these details lengthens the title, it is important to include all the necessary information so that readers don’t have to go back to the manuscript to find the information they need to understand the table.
+-	**Column headers:** column headers should be succinct but descriptive as these introduce the table to the readers, along with the title.
+-	**Row labels:** when variables have multiple categories consider using a hierarchical representation (i.e., via indenting) and specify which category was used as the reference.
+-	**Footnote:** footnotes should include the definitions of the abbreviations and details on the statistical tests and analyses used.
+
+Furthermore, rather than duplicating information in the main text, the tables should be used to complement it, and vice versa.
+
+You should try to organize the tables in a way that ensures the reader can easily and quickly digest and comprehend the information within. Some formatting tips include:
+
+-	Designing the table layout with three horizontal lines in total: a line at the top of the table, a line below the column headers and a line at the bottom of the table. If the table is particularly large, shading can be used to demarcate the rows. Drawing horizontal and vertical lines inside the table is highly discouraged.
+-	The number of columns should be kept to a minimum. For example, instead of having a column for the p-values, you should consider using significance codes to indicate the level of statistical significance.  For example, different numbers of asterisks can be used (\*P<0.05, \*\*P<0.01, \*\*\*P<0.001) [@kotz2013effective4]. 
+-	Whether the p-values are one-sided or two-sided should be specified. Some journals suggest only reporting two-sided p-values unless a one-sided test is required by the study design. As for decimal places for the p-values, the NEJM recommends reporting p-values larger than 0.01 with two decimal places, those between 0.01 and 0.001 with three decimal places, and those smaller than 0.001 as P<0.001 [@nejm2021author].
+-	When reporting p-values or confidence intervals, the statistical test used to obtain the values needs to be described.
+-	For decimal points, do not report numbers with too many decimal places.
+-	The units of measurement for the study variables should be reported. For example, age in years or increments of 10 years, BMI in kg/m2, physical activity (min/day), etc.
+-	When displaying data in a table, do not include too many significant figures.
+-	Do not over-stylize the data using the bold, italic, and underline options [@franzblau2012graphs]. 
+
+## Designing a figure
+
+A figure can be useful when you have a lot of data that you’d like to describe or when you’d like to convey a key message. Deciding between a table or a figure depends on what kind of information you’re looking to present. If your data is representing a trend, pattern or association (in particular, if there is a non-linear trend), a figure may be able to convey the information more efficiently than a table. However, if it is important to present the exact numbers for the results, consider using a table rather than a figure.
+
+Similar to the tables, figures must be accompanied with a detailed title, descriptive labels for the y- and x-axes, a legend explaining any symbols, colours and line types, and a footnote. Generally, the title for a figure generally is placed under the image, and the footnote is placed under the title.
+
+Keep in mind the main message you are aiming to convey with the figure. It can take some time to design a figure that meets your needs. Some general guidelines include:
+
+-	Some journals may charge additional fees to print coloured figures. Therefore, it will be likely be less costly to design the initial figure in black and white. 
+-	If you decide to make figures with colours, you should consider colour combinations and palettes that are accessible or colour-blind friendly. For example, the R ‘ggplot2’ package offers some colour-blind friendly palettes [@chang]. You can access the chapter [here](http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/#a-colorblind-friendly-palette).
+
+-	Avoid using unnecessary grid lines inside the graph or plot, except for a reference line when necessary (e.g., a line indicating a Hazard Ratio (HR) or Odds Ratio (OR) of 1.0 in a forest plot).
+-	When placing graphs and plots side-by-side, be mindful of the scale of the graphs to avoid misleading the readers. It’s always a good idea to use the same scale across the graphs and figures.
+- Avoid complicated, confusing figures such as 3-dimensional graphs [@franzblau2012graphs].
+
+## Tables and figures in population and public health research papers
+
+In research articles in epidemiology or in population and public health, generally, table 1 presents the sociodemographic and/or clinical characteristics of the study population stratified by the levels of the explanatory variable. For research papers based on a large survey datasets, table 1 includes descriptive statistics such as counts (number of people in the study sample in each category), proportions (accounting for the survey design), as well as means and standard deviations (also accounting for the survey design). Table 1 allows readers to compare the variables of interest across the levels of the explanatory/exposure variable of interest and may help them to gain an understanding of the research question. Sometimes, the authors test for differences and include a column for the p-values to indicate whether the variables presented are distributed differentially across the levels of the exposure. 
+
+Table 2 usually presents the results of the primary inferential analysis assessing the research question, i.e., the association between the main explanatory and outcome variables under investigation. If there are multiple models used or additional outcomes considered, multiple columns can be included in this table. The footnote for the table usually includes information on the analytical model, the variable selection approach and the relevant tests of significance. This table generally reports the effect of the exposure or the specific level of the explanatory variable on the outcome after adjustment for potential confounders.
+
+Additional tables can be included that present the results of the effect modification analyses or any other sensitivity analyses that provide additional clarity to the study.
+
+Figure 1 is most often a flowchart showing how the authors obtained the final study sample after going through the inclusion and exclusion criteria. The inclusion and exclusion criteria should be detailed and the exact number of people excluded at each step should be provided. Other figures in epidemiological studies or studies in population and public health can include: directed acyclic graphs, survival curves, forest plots, histograms, boxplots and maps.
+
+Figures and tables are useful tools for highlighting the important findings of the study. Designing great tables and figures during the manuscript preparation phase can also be helpful for other knowledge translation activities For example, when making conference posters or oral presentations. Finally, there should be coherence between the text in the manuscript and the tables and figures. That is, the tables and figures should have a meaningful connection to the text in the results section and the story you are trying to tell in your manuscript.
+
+## Common pitfalls
+
+-	**Having too many tables and figures:** Many journals usually restrict the number of tables and figures that can be includes in the main article. Having too many figures and tables can be distracting. In addition, each table or figure needs to be explained in the text of the manuscript. Even when you have opted to include some tables and figures in the supplementary materials, they need to be explained in the main text. As for the other sections, you need to find a balance between too much and too little information.
+-	**Avoid duplication.** Sometimes the authors present the same data in a table and a figure. Tables and figures should be supplementary to each other and the text in the article to emphasize the key findings and convey a continuous story.
+
+## Tips
+
+- When describing concepts in your article, be consistent in your use of keywords throughout the text, tables and figures in the article. This is particularly important if there are many terms used in the literature to describe a concept.
+-	All tables and figures must be referenced in the text and should follow a chronological order. There shouldn’t be a table or a figure that is not cited in the text. 
+-	Sometimes, you may have too much information in the manuscript which causes it to exceed the word limit. This information may be essential for the manuscript. In some instances, you may be able to create a table to describe some of the details in the methods rather than having to describe them all in the manuscript. In addition, some tables can include both the text descriptions and the results.
+-	If you have a target journal in mind, review the journal instructions. Formatting requirements figures and tables may differ by journal.
