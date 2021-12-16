@@ -26,8 +26,17 @@ tables-and-figures-in-population-and-public-health-research-papers
 common-pitfalls-2
 tips-2
 results-section
+key-characteristics-and-organization-of-a-results-section
+common-pitfalls-3
+tips-3
 discussion-section
+components-of-a-discussion-section
+additional-tips
 title-and-abstract
+components-of-an-abstract
+characteristics-of-a-good-abstract
+tips-for-writing-an-abstract
+title-of-a-scientific-article
 authorship
 peer-review
 responding-to-reviewer-comments

@@ -62,7 +62,7 @@ Figures and tables are useful tools for highlighting the important findings of t
 
 ## Tips
 
-- When describing concepts in your article, be consistent in your use of keywords throughout the text, tables and figures in the article. This is particularly important if there are many terms used in the literature to describe a concept.
--	All tables and figures must be referenced in the text and should follow a chronological order. There shouldn’t be a table or a figure that is not cited in the text. 
--	Sometimes, you may have too much information in the manuscript which causes it to exceed the word limit. This information may be essential for the manuscript. In some instances, you may be able to create a table to describe some of the details in the methods rather than having to describe them all in the manuscript. In addition, some tables can include both the text descriptions and the results.
--	If you have a target journal in mind, review the journal instructions. Formatting requirements figures and tables may differ by journal.
+1. When describing concepts in your article, be consistent in your use of keywords throughout the text, tables and figures in the article. This is particularly important if there are many terms used in the literature to describe a concept.
+2.	All tables and figures must be referenced in the text and should follow a chronological order. There shouldn’t be a table or a figure that is not cited in the text. 
+3.	Sometimes, you may have too much information in the manuscript which causes it to exceed the word limit. This information may be essential for the manuscript. In some instances, you may be able to create a table to describe some of the details in the methods rather than having to describe them all in the manuscript. In addition, some tables can include both the text descriptions and the results.
+4.	If you have a target journal in mind, review the journal instructions. Formatting requirements figures and tables may differ by journal.
