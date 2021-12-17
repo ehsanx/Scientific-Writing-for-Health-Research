@@ -1,11 +1,161 @@
 # Research Question
 
-## PICOT
+The first step in conducting a scientific study is to develop a research question; however, this can be a difficult process. Research questions organize and direct the study, communicate the research study's goal to the readers, define the study's boundaries and limitations, and inform researchers on how to conduct the study. A good research question can serve all of these purposes, but developing a "good" research question can be difficult and time-consuming. A good research question should address the clinical or population health problem under investigation. Furthermore, the significance of a study’s findings is determined by how well it addresses the research question; therefore, not asking the “right” research question can jeopardize the validity of the whole study. 
 
+Generally, the process of formulating a new research question begins with a public health or clinical problem that needs to be addressed. In health sciences research, the rationale for conducting a research study is typically to address at least one of three issues: the existing evidence is scarce, the current literature contains conflicting evidence, or the evidence base can be improved [@fandino2019formulating]. As a result, conducting a thorough literature search on the topic of interest is frequently required in order to formulate a good research question. In addition, the answers to the research question should address an aspect of the specific problem that was identified, and be supportive of the study’s rationale. In many instances, this requires narrowing and specifying the research question from a broader, more general question. It has previously been suggested that using a PICOT (population, intervention, comparator, outcome and time frame) framework can help researchers formulate a good research question and can ensure higher quality reporting in studies [@thabane2009posing;@rios2010association]. A well-structured research question will guide the implementation of the study as well as the reporting of the results. The FINER criteria may also be used to assess the quality of the research question and refine it as needed [@thabane2009posing]. In this chapter, we discuss the PICOT framework and FINER criteria for developing a good research question in population and public health research.
 
-Test words.
+## Framing a research question using the PICOT framework
 
+Formulating and refining the research question using the PICOT framework can inform which study design is most appropriate, what types of data should be collected and what types of analytical methods are most suitable to answer the research question. The framework has many different variations, but the general framework for studies in health research is as follows:
 
-## FINER
+```{r table01, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+tabl <- '
+Table 1: Key elements and guiding questions for the PICOT framework
+
+| Element | Description and guiding questions |
+|---|---|
+| **P opulation** | **Specify the target population and study sample** |
+|  | *What is the target population of the data source?* |
+|  | *How broad or narrow is the target population?* |
+|  | *To whom will your research question be generalizable to?* |
+|  | *Who is included in the study sample that you are trying to make inferences about?* |
+| **I ntervention, treatment or exposure** | **Specify the intervention, treatment or exposure** |
+|  | *What is the primary experimental condition that you want to test?* |
+|  | *What is the intervention / treatment / diagnostic test / procedure?* |
+|  | *What is the exposure or the explanatory variable of interest?* |
+| **C omparator** | **Specify the “control” group (e.g., standard of care, control, no exposure)** |
+|  | *Who is included in the comparison group to contrast with the exposed group?* |
+|  | *What is the standard of care to which the intervention/treatment is compared to?* |
+|  | *Are there multiple comparison groups?* |
+| **O utcome** | **Specify the outcome of interest** |
+|  | *Is the outcome variable objective or subjective?* |
+|  | *How is the outcome variable measured? Is the outcome quantifiable?* |
+|  | *Is the measurement tool validated?*  |
+|  | *Is the outcome measurement reproducible? How precise is the measurement?* |
+|  | *Can temporality be established to avoid the possibility of reverse causality?* |
+|  | *Are there any secondary outcomes of interest?* |
+| **T ime frame** | **Specify the time frame in which recruitment, follow-up and data collection will take place** |
+|  | *When did follow-up happen?* |
+|  | *When were the measurements taken?* |
+|  | *How often are the outcomes measured?* |
+| **S etting (optional)** | **Identify the setting of the study sample to understand the generalizability of findings and provide appropriate interpretations** |
+|  | *What are the inclusion/exclusion criteria?* |
+
+'
+
+cat(tabl) # output the table in a format good for HTML/PDF/docx conversion
+```
+
+## Evaluating research questions using FINER criteria
+
+Once the research question is developed using the PICOT framework, the FINER criteria can be used to assess the quality of the research question and determine if the research is feasible.
+
+```{r table012, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
+tabl2 <- '
+Table 2: Key elements and guiding questions for the FINER criteria
+
+| Element | Description and guiding questions |
+|---|---|
+| **F easible?** | **The feasibility criterion should ensure that the research is doable and the results will be generated in a reasonable time frame** |
+|  | *Is the research feasible?* |
+|  | *Is the exposure/treatment or outcome rare?* |
+|  | *Will it be possible to obtain an adequate sample size?* |
+|  | *Is the study population representative of the target population?* |
+|  | *Is there an appropriate study design to address the research question?* |
+|  | *Is the scope of the study manageable?* |
+| **I nteresting?** | **This criterion encourages researchers to think about who the target audience of the research study would be** |
+|  | *Who would be interested in this research?* |
+|  | *Who is the target audience?* |
+|  | *Who would be the knowledge users of this research?* |
+|  | *How will you make it “interesting” to the target audience?* |
+| **N ovel?** | **The research question should generate evidence that adds to the existing literature** |
+|  | *Is the research original and novel?* |
+|  | *Is the research question already answered in the literature?* |
+|  | *What does this research add?* |
+| **E thical?** | **It is critical to think about the ethical implications of the proposed study** |
+|  | *How will the research process and dissemination of findings affect the study participants or the target population?* |
+|  | *Is this research question ethical?* |
+|  | *Will the findings of the study harm anyone? Create or exacerbate any stigma?*  |
+|  | *Will this study meet the evaluation criteria of the ethics review board?* |
+| **R elevant?** | **The proposed research should generate knowledge that is relevant to the topic of interest** |
+|  | *Will answering the research question provide relevant information for the clinical or public health problem identified?* |
+|  | *How is this research relevant for the topic in question?* |
+|  | *Will the findings of this study contribute to the existing literature?* |
+|  | *Does this research address a current need?* |
+|  | *Would this research generate further investigations in the future?* |
+
+'
+
+cat(tabl2) # output the table in a format good for HTML/PDF/docx conversion
+```
+
+## Tips for formulating a good research question
+
+A research question needs to be aligned with the data, methods and results. In addition, a good research question should have the following characteristics: clarity, specificity, empirical support, and relevance. Questions in population and public health research typically ask about phenomena related to health and may focus on comparisons, associations, relationships, or descriptions of variables [@creswell2017research]. Once you have a broad, general idea of the question you want to investigate, try to describe the goal of the research study as precisely as possible, for example, the gap in knowledge you want to fill or the new evidence you want to generate for a question previously considered in the literature [@vandenbroucke2018ideas]. Determining this objective can be helpful when deciding what types of results you need to present. Vandenbroucke and Pearce [@vandenbroucke2018ideas] advise describing what table or figure is required to achieve the goal. For example, what table or figure would be needed to fill the knowledge gap. Following this process, the questions will become clearer and guide what types of study design and methods are required to achieve the study objective and attain results.
+
+The most common pitfalls when developing research questions are that the questions incorporate the methods or the study's expected outcomes [@mayo2013research]. Furthermore, the clarity of the research question can be impeded by the lack of a clear parameter to assess the relationship or association between exposure and outcome [@mayo2013research]. 
+
+We propose the following overall roadmap for developing a good research question:
+
+1.	Gain an understanding of the research context 
+2.	Experiment with a few different PICOT(S) combinations 
+3.	Choose the best set of combinations and narrow the research question
+4.	Use the FINER criteria to evaluate the research question's quality
+5.	“Prune” the research question by removing any extraneous details [@vandenbroucke2018ideas]
+
+A good research question can inform the study objective, data collection, methodology and the relevance of the findings. Not having a good research question can create confusion for readers and reviewers, make the research aimless and the interpretation of the results may be difficult or pointless. Therefore, developing a clear, well-structured research question is a critical step in any scientific investigation.
+
 
 ## Statistical analysis plans
+
+Statistical analysis plans (SAP) are also known as data analysis plans (DAP) or reporting analysis plans (RAP). A statistical analysis plan describes the study variables and the plan for analyzing a data **before** conducting the analysis; this is essentially the strategy for connecting the study objective to the data analysis that will answer the research question. SAPs have been used in biomedical research and in clinical trials for many years; statistical analysis plans for clinical trials are registered and made publicly available in repositories such as [ClinicalTrials.gov](http://www.clinicaltrials.gov/). In fact, the National Institutes of Health (NIH) in the United States established policies for reporting NIH-funded clinical trials in 2016, requiring researchers to report full protocol and statistical analysis plan, along with levels of specification for outcome measures, information about adverse events and collection method, and baseline information and characteristics associated with primary outcome measures [@zarin2016trial]. Pre-registering SAPs can prevent *“P-value hacking”*, which can occur when researchers *“shop around for a statistical test to give them the P-value that they love”* [@yuan2019guide]. By registering pre-specified SAPs, researchers can help improve the study reproducibility and reduce bias [@kahan2020public].
+
+In observational studies, SAPs are much less adopted compared to clinical trials [@thor2020registering]; however, the discussion around its use and value have been growing. In this chapter, we discuss the use of SAPs for observational studies, and propose some key components of SAP for observational studies.
+
+### The value of statistical analysis plans in observational studies  
+
+Many observational studies are based on large datasets, or “big data,” which is defined as heterogeneous datasets linked to a single dataset, with a large number of observations and variables, and that is either real-time or frequently updated [@ehrenstein2017clinical]. With these big data and powerful statistical software and methods, finding statistically significant associations without pre-established study objectives, research questions and hypotheses has become easier [@yuan2019guide]. These types of analyses can produce statistically significant findings without implications to clinical relevance or justification. SAPs can be useful in ensuring that the analytical methods are planned ahead of time in relation to the research question and objectives, and that this procedure is transparent.
+
+As the findings from observational studies may have an impact on public health policies, guidelines and decision-making, it is critical to ensure that these studies are of high standard, that analyses are pre-specified based on relevance to public health, and that they are replicable. When there is no pre-established SAP specifying the primary outcome variable, outcome reporting bias can occur [@cafri2018mitigating]. Many efforts have been made to reduce reporting bias in observational studies, such as STROBE guidelines [@von2007strengthening]. The use of SAPs has also been suggested, and that only the variables that researchers pre-specified as variables of interest be made available to them to limit post hoc analyses [@thomas2012value;@williams2010registration]. Some even argue that SAPs should be required even before obtaining data, during the application stage of data access [@trinh2013statistical;@hiemstra2019debate]. In fact, to obtain access to big data, it is often required to submit a data request form that contains some key elements of a SAP [@dars2021;@popdata2021]. 
+
+SAPs also have an important role in identifying potential biases, such as selection bias (based on the inclusion/exclusion criteria) or measurement bias, and can help researchers plan how to minimize and address these biases. 
+
+### Guide on writing an SAP for observational studies
+
+Based on the guidelines for SAP for clinical trials [@gamble2017guidelines] and literature suggesting its’ adaptation for observational studies [@yuan2019guide;@thomas2012value;@hiemstra2019debate], we suggest the following four key components for writing SAP for observational studies in health sciences research:
+
+- **Study objectives and hypotheses**
+
+    - Broad research area, study background and rationale
+    - Research question (e.g. using PICOT framework and FINER criteria)
+    - Hypothesis and aims
+<p>
+
+- **Study population**
+
+    - Study design (e.g. cross-sectional, prospective cohort)
+    - Study sample and inclusion/exclusion criteria
+    - Study period (time points under consideration in the data source) 
+    - Baseline characteristics of study population
+<p>
+
+- **Study variables: definitions, types, how they are measured**
+
+    - Outcome variables
+    - Explanatory/exposure variables 
+    - Covariates (e.g. mediators, colliders, confounders)
+    - Derived variables
+<p>
+
+- **Statistical analysis methods**
+
+    - Defined level for statistical significance
+    - Plans for handling missing data, correlation, bias and confounding, and repetitive analyses
+    - Details on model building and variable selection
+    - Details on additional methods if model assumptions do not hold (e.g. normality, proportional hazards)
+    - Strategies for interaction or subgroup analysis and sensitivity analyses
+
+Finally, SAPs can be useful in observational studies because they encourage detailed and rigorous planning of the study rather than disorganized and spontaneous data analysis. They can also optimize the resources to focus on the right methods for the research questions, and ensure methodological transparency and replicability of findings. We propose the following two broad questions that can be used to determine whether the SAP is appropriate:
+
+1.	Does the SAP help in answering the research question or achieving the original study objective?
+2.	Are the planned analyses appropriate in the context of the research question?

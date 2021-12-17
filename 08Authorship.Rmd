@@ -1,2 +1,38 @@
 # Authorship
 
+In this chapter, we discuss about authorship in scientific publications. There are some differences in the authorship of scientific publications depending on the field or discipline of research. In health sciences research, it is very common to see many people listed as authors on published scientific papers. Primarily since most researchers work in established research teams and collaborate with colleagues, mentees, and mentors, and research studies are rarely the work of a single person nowadays. The importance of authorship in scientific publications cannot be overstated because it has significant academic and scientific implications for researchers. Authorship of scientific papers confers the researcher's academic credibility and importance. However, the authorship also holds researchers accountable and responsible for their publications. Researchers must understand that authorship manipulation, such as “gift authorships” or failure to include meritable authors, is considered scientific misconduct and fraud, and may result in the retraction of published papers as well as serious academic consequences [@callaway2016publisher]. As a result, guidelines and processes for determining authorship may be useful for researchers in determining who should be included as an author, as well as understanding what responsibility and accountability come with authorship. Many journals now have authorship and contributorship policies, and they may even ask what specific contribution(s) each author made to the study. To determine authorship in health sciences research, the International Committee of Medical Journal Editors (ICMJE) guidelines are most commonly used [@international2019icmje]. The ICMJE recommends that authorship by determined by four criteria, which we outline below along with some additional suggestions.
+
+## Suggested criteria for authorship and contributorship  
+
+The ICMJE suggests the following criteria to ensure that all included authors contributed substantially to the publication and accept accountability and responsibility for the published paper. They recommend that all four of the following criteria be met before someone can be listed as an author on the publication.
+
+**Four criteria for authorship**
+
+1.	The individual has made substantial contributions to the project: a “substantial” contribution can be defined as meeting one or more of the following criteria. 
+
+    a. The person conceptualized the study, devised the design of the study, or significantly improved the conception or the design of the study. 
+    b. The person was a key member in the acquisition of the data used for the study. 
+    c. The person was responsible for the data analysis of the study, or significantly improved the data analysis. 
+    d. The person made significant contributions to the data interpretation. 
+    
+2.	The person wrote the first draft of the paper or made critical revisions in the subsequent versions of the paper. 
+
+3.	The person has reviewed and approved the final version of the manuscript for publication. 
+
+4.	The person acknowledged and agreed to accept accountability and responsibility for all aspects of the published work.
+
+These four criteria must be met in order for someone to be listed as an author. However, these criteria are meant to be used carefully as a guide to determine who merits credit as authors and can accept responsibility as such; they should not be used as loopholes to deny authorship to deserving colleagues. The ICMJE suggests that individuals who meet the first criteria of substantial contribution should be given adequate opportunity and time to contribute to the revisions and review or the manuscript in order to meet the rest of the criteria. It is not uncommon for people to meet only one or two of the four criteria. In these cases, even if they are not listed as authors, these individuals should be acknowledged as contributors to the research study in the acknowledgments.
+
+The corresponding author is responsible for all communication with the journal, including manuscript submission, responding to reviewers’ comments, communicating the review and revisions with the co-authors, re-submitting revisions, as well as responding to any inquiries about the study after it has been published. Furthermore, the corresponding author is also responsible for ensuring that all individuals deserving of authorship are given an appropriate opportunity to contribute to the publication’s authorship.  
+
+In terms of the order of the authors in the authorship list, the order varies by discipline and field, but in epidemiology and public health, the person who writes the first draft of the manuscript is usually the first author. Although it is uncommon, some journals allow two co-first authors who contributed equally to the research and writing of the manuscript. In the field of biomedical and health sciences research, the principal investigator is usually the last author. Sometimes, the research study is the work of a large working group or research team; in these instances, the group or team may be named in the author list rather than each individual’s name. For example, de Vries et al. [@de2021perceived] include the WHO World Mental Health Survey collaborators in the authorship list of their paper, and the authors' contributions section specifies which individuals are included as collaborators. Similarly, CREDENCE Trial Investigators are listed as co-authors by Zhou et al. [@zhou2021effect], and all investigators are listed in the appendix. 
+
+Lastly, as briefly mentioned above, individuals who do not meet all four criteria for authorship should still be acknowledged as contributors. These individuals may be those who contributed to the study in general, but their contributions alone do not justify authorship; their specific contributions should be described and acknowledged. These individuals could be members of patient advocacy or community-based groups who contributed their time and insight to the research, those who served as liaisons for community engagement or knowledge translation, those who contributed writing assistance, technical or language editing, or those who assisted with funding acquisition. The corresponding author is responsible for acknowledging all contributors and obtaining permission from them to include their names in the acknowledgments section of the manuscript.
+
+## Tips for navigating co-authorships
+
+Cals and Kotz [@cals2013effective8] suggest that preparing a written agreement describing each author’s roles and responsibilities and making sure that the agreement is accepted by all co-authors can ensure the clarity of the co-authoring process, and clearly set the expectations even before starting the writing of the manuscript. Stephen Heard also offers a few tips for facilitating the writing process with co-authors [@heard2016scientist, p.247-259]:
+
+- Use collaborative writing software or tools, such as shared documents saved and updated on the Web (e.g., Google Docs) or the "tracked changes" tool in Microsoft Word, to track any changes made to the original document.
+- Designate a lead writer and keep track of the master version as well as the revised versions of the manuscript throughout the writing process.
+- In order to communicate with the co-authors, leave comments and questions directly in the body of the manuscript.

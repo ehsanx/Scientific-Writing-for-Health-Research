@@ -1,2 +1,41 @@
 # Peer-review
 
+Peer-reviewing, institutionalized over the past couple of decades, has now become an essential part of biomedical research and scientific writing [@rennie2003editorial]. First and foremost, scientific writing requires extensive self-reviewing of the authors’ own work. Then there are informal, or “friendly” reviews where the researchers review the work of colleagues, mentees, co-authors and/or collaborators. There are also more “formal” reviews which are part of the publication process in peer-reviewed journals. Researchers are at both ends of these peer-reviewing processes, sometimes as the writer, and other times as the reviewer providing the feedback. As such, having the ability to write a helpful and relevant review aids with scientific writing. In this chapter, we discuss the review process in peer-reviewed journals, as well as some tips and guidelines for reviewing, relevant to both the reviewer and the one receiving the feedback. 
+
+## Review in the peer-reviewed journals
+
+In peer reviewed journals, once a manuscript is submitted, generally the editorial managers check the formatting of the manuscript and verify if it meets the formatting requirements set by the journal. Then, the manuscript is passed along to the editor who reviews it quickly to decide if the manuscript is promising and deemed appropriate to be sent to external reviewers for peer-reviewing. After the initial screening, the editor finds external reviewers for the manuscript. Depending on the journal, the authors may be asked to provide the names and contact information of suggested reviewers during the submission process. Some journals do not ask for suggested reviewers. The majority of journals are in-between, suggested reviewers are contacted if they are provided, otherwise, the editor finds reviewers from the journal’s database of reviewers. The reviewers receive an invitation to review the manuscript and if they agree, they review the paper and send their recommendations to the editor. The reviewers must give an objective, honest and unbiased appraisal of the manuscript’s strengths and areas for improvement. It is good practice for reviewers to provide supporting evidence with references when appropriate. Some suggest that peer-reviews should be “standardized” and based on up to date evidence [@moher2003peer]. Finally, once the editor receives the reviews, the editor makes a decision on the manuscript based on the reviewers’ suggestions. In general, most editors rely on the reviewers’ suggestions when making decisions and will try to accommodate the reviewers’ suggestions and questions as best as possible. When the authors receive the reviewers’ comments and suggestions, it is critical that they carefully consider each one. Organizing the revisions in a “response to reviews” format with point-by-point responses can be a clear and concise approach to explain how each of the reviewers’ comments and concerns were considered and addressed [@heard2016scientist, p.222-230].  
+
+There are different types of blinding used in peer-reviewed journals. In single-blinded reviews, the reviewers know who the authors are, but the authors don’t know who the reviewers are. In double-blinded reviews, both the authors and the reviewers do not know the identity of each other. In open-access peer-reviews, both the authors’ and the reviewers’ names are given. Furthermore, some open-access journals provide a peer-review history containing information about the authors and the reviewers, as well as the complete history of the reviews, including the reviewers’ feedback and the authors’ responses. 
+
+Peer-reviewing can be conducted even after the publication of a manuscript. The formal review of a published scientific paper are also accepted in many journals. These reviews of papers post-publication are in the form of editorials, letters to the editor, response to authors, or rapid responses. These usually raise issues that were not addressed during the initial review process before publication. Common issues include technical problems or expert-matter concerns. After these reviews, the authors generally have the opportunity to respond and try to address the raised concerns. 
+
+## Guidelines for providing a constructive review 
+
+- Avoid vague comments. Provide feedback and comments about the specific issues or problems that the authors can address and improve on.
+
+- When writing a review, try to focus on the big picture of the work. Start your review with comments on what were the good things about the paper. Then provide feedback on what were the major issues of the work while being specific and constructive. Minor issues can be pointed out, but copy-editing is not needed. Journals usually provide space for reviewers to leave feedback for only the editors to read. When leaving comments for the editors, be upfront and report what you think are the major issues with the article.
+
+- Follow a systematic process to conduct the review. For example, you can use established checklists and guidelines for critical appraisal of scientific articles, such as the reporting guidelines provided by the EQUATOR network [@altman2008equator], the CONSORT guidelines for reporting randomised controlled trials [@schulz2010consort], the STROBE guidelines for reporting observational studies [@von2007strengthening], and the PRISMA guidelines for reporting systematic reviews [@page2021prisma].
+
+- Peer-reviewed journals generally provide specific guidelines for their reviewers. For example, the BMJ gives guiding questions for the reviewers to consider while reading the manuscript [@theBMJ2021resources]:
+
+    - “Is the article important?”
+    - “Will it help the readers to make better decisions?” This is a question pertinent to the audience of the journal. The BMJ’s main audience is clinicians and researchers in the medical sciences. It is the responsibility of the reviewer to assess whether the article will be providing important knowledge to the readers of the journal.
+    - “Will the article add enough to existing knowledge?”
+    - “Does the article read well and make sense? Does it have a clear message?”
+    - For research articles they further include questions such as “Does the work add enough to what is already in the published literature? If so, what does it add?”
+    - “Is the research question clearly defined and appropriately answered?”
+    - “(Is the overall design of the study) appropriate and adequate to answer the research question?”
+    - “(Are the methods) adequately described? Main outcome measure clear? Is the study fully reported in line with the appropriate reporting statement or checklist? Was the study ethical?”
+    - “(Do the results) answer the research question? Credible? Well presented?”
+    - “(Are the interpretation and conclusions) warranted by and sufficiently derived from/focused on the data? Discussed in the light of previous evidence? Is the message clear?”
+    - “(Are the references) up to date and relevant? Any glaring omissions?”
+    - “(Do abstracts, summary, key messages) reflect accurately what the paper says?”
+
+## Tips for getting better feedback from co-authors and collaborators
+
+1. Take some time to polish your manuscript. Try to catch any grammatical errors and polish the writing through careful proofreading. 
+2. Set specific deadlines for reviews, with a reasonable amount of allotted time.
+3. Use software that allows for tracked changes and comments so that co-authors can leave comments and questions, and you can keep track of the changes and revisions.
+4. Generally, peer-reviewed journals have specific guidelines on how to resubmit the revised manuscript. Ensure that you are following the journal instructions.
