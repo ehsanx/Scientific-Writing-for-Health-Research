@@ -3,7 +3,11 @@
 
 ## Rmarkdown
 
+Here is a video about how to use Rmarkdown as a tool to write scientific documents.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DWxDWyqWnX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## GitHub
+
+[Under construction]

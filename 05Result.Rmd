@@ -1,5 +1,7 @@
 # Results Section
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hxfUJGjXDUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 The results section is the link between the methods and the discussion section. It should provide a clear and concise summary of the findings from the research study. The authors should report the findings that were estimated using the approaches presented in the methods section, in the same order as in the methods section and the writing should be free from interpretations. 
 
 It may appear that the results is the simplest section to write. However, authors must carefully prepare this section to maintain the readers’ attention and interest, and to facilitate understanding of the study. Although the results section generally only contains the quantitative information (except for qualitative and mixed-methods studies), it should still be easy to follow and understand. Presenting the findings in the results section in the same sequence as the procedures were presented in the methods section can improve the flow of the paper. In general, the results section has the following order: (i) the study sample or population characteristics, (ii) findings from the primary analysis, (iii) findings from the secondary analyses, and (iv) any additional findings that may be important to the understanding of the readers.

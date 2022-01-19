@@ -9,8 +9,7 @@ output:
       in_header: header.html
       css: [style.css]
   bookdown::gitbook:
-    includes:
-      in_header: header.html
+    highlight: tango
   bookdown::pdf_book:
     includes:
       in_header: header.html
@@ -62,6 +61,11 @@ The project aims to create and share openly accessible high-quality OER content 
    
 **Format**: Content will primarily be text, that will be placed on an openly accessible GitHub page. Where necessary, tables, pictures and multi-media will be included. Short videos will be embedded to summarize important sections of the content. 
 
+## Funding {-}
+
+- [UBC OER Rapid Innovation](https://oerfund.open.ubc.ca/oer-rapid-innovation-grants/)
+- [UBC Work Learn](https://facultystaff.students.ubc.ca/student-engagement/centre-student-involvement-careers/work-learn)
+
 ## Version history {-}
 
 Initial outlines were created for SPPH 504-007 during 2018-2021. In 2021, though OER Fund Rapid Innovation Grant and WorkLearn program, a GRA was hired to convert the outlines to drafts, that were revised and updated by other contributors.
@@ -85,6 +89,5 @@ The online version of this book is licensed under the [Attribution 4.0 Internati
 
 ```{block, type='rmdcomment'}
 **How to cite**
-
-[To be added later]
+•	Karim ME, Jeong D, Yusuf F (2021) Scientific Writing for Health Research. URL: https://ehsanx.github.io/Scientific-Writing-for-Health-Research/  
 ```

@@ -1,5 +1,7 @@
 # Methods Section
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yqMRFgOT4Ac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Based on the IMRaD (Introduction, Methods, Results and Discussion) format discussed previously, the second section of a scientific research paper is the methods. The purpose of the methods section is to provide a comprehensive picture of the methodological approach of the study in a straightforward and transparent manner. Broadly, the methods section should allow the readers to understand the dataset under consideration and the analytical steps undertaken in the study, and give a sense of reproducibility of the study [@annesley2010and;@kotz2013effective3]. 
 
 ## The “Bridge”

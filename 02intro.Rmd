@@ -1,5 +1,7 @@
 # Introduction Section
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/18NFP61HM4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 A scientific research paper generally follows the format of IMRaD (Introduction, Methods, Results and Discussion). The introduction section sets the stage for the entire paper and introduces the topic of interest to the audience. This first section provides a broad context of the issue under investigation, summarizes what is known and unknown, and tries to convince the readers that this particular study will be a valuable addition to current knowledge.
 
 There are several guidelines suggesting how to best structure the introduction section for a research paper [@cals2013effective;@bahadoran2018principles;@heard2016scientist, p.84-88]. Typically, a well-written introduction section will contain broader background information on the topic, a summary of key existing knowledge relevant to the specific problem, the gap in the current knowledge (rationale), and the research question and/or the hypothesis. Though not essential, some authors may opt to briefly describe the study design and methods.
