@@ -3,11 +3,13 @@
 
 ## Rmarkdown
 
-Here is a video about how to use Rmarkdown as a tool to write scientific documents.
+Here is a brief tutorial on how to use RMarkdown to mix code and text together to create a reproducible article, with citation, tables and figures, i.e., how to use Rmarkdown as a tool to write scientific documents.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DWxDWyqWnX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## GitHub
 
-[Under construction]
+Here is a video about how to use GitHub in collaboration with RStudio and R to write and update scientific documents. In the description of the video, you can find a table of content, and able to click on the respective sections.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pKV1mp-AcJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -4,15 +4,12 @@ author: "Ehsan Karim & Dahn Jeong & Fardowsa Yusuf"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output:
-  bookdown::html_document2:
-    includes:
-      in_header: header.html
-      css: [style.css]
   bookdown::gitbook:
     highlight: tango
-  bookdown::pdf_book:
-    includes:
-      in_header: header.html
+    toolbar:
+      position: fixed
+    edit : null
+    download: null
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
@@ -89,5 +86,6 @@ The online version of this book is licensed under the [Attribution 4.0 Internati
 
 ```{block, type='rmdcomment'}
 **How to cite**
-•	Karim ME, Jeong D, Yusuf F (2021) Scientific Writing for Health Research. URL: https://ehsanx.github.io/Scientific-Writing-for-Health-Research/  
+
+Karim ME, Jeong D, Yusuf F (2021) Scientific Writing for Health Research. URL: https://ehsanx.github.io/Scientific-Writing-for-Health-Research/  
 ```
