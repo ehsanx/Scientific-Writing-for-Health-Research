@@ -58,6 +58,8 @@ The project aims to create and share openly accessible high-quality OER content 
 - [UBC OER Rapid Innovation](https://oerfund.open.ubc.ca/oer-rapid-innovation-grants/)
 - [UBC Work Learn](https://facultystaff.students.ubc.ca/student-engagement/centre-student-involvement-careers/work-learn)
 
+We also acknowledge the [GTA allocation from SPPH](https://www.spph.ubc.ca/) for the course.
+
 ## Version history {-}
 
 Initial outlines were created for SPPH 504-007 during 2018-2021. In 2021, though OER Fund Rapid Innovation Grant (together with [Dr. Suborna Ahmed](https://forestry.ubc.ca/faculty-profile/suborna-ahmed/)) and Work Learn program, a GRA was hired to convert the outlines to drafts, that were revised and updated by other contributors.

@@ -48,6 +48,8 @@ review-in-the-peer-reviewed-journals
 guidelines-for-providing-a-constructive-review
 tips-for-getting-better-feedback-from-co-authors-and-collaborators
 responding-to-reviewer-comments
-collaborative-tools
+collaborative-formatting-tools
 rmarkdown
 github
+formatting-tools
+finding-suitable-journals

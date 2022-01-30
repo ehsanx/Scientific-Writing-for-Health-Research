@@ -1,0 +1,36 @@
+# Finding Suitable Journals
+
+
+Once an article is written, the next step is to find a suitable journal and then format the journal according to the author guidelines. 
+
+Authors can try to submit their title, abstract and keywords to try to identify journals in the following publisher specific search tools that may have matching interests. 
+
+- [Elsevier](https://journalfinder.elsevier.com/)
+- [Springer](https://journalsuggester.springer.com/)
+- [Taylor and Francis](https://authorservices.taylorandfrancis.com/publishing-your-research/choosing-a-journal/journal-suggester/)
+- [Wiley](https://journalfinder.wiley.com/search?type=match)
+
+Alternatively, authors could use external search tools that aggregates journal information:
+
+- [Jane](https://jane.biosemantics.org/) (uses information from PubMed)
+- [Web of Science](https://mjl.clarivate.com/home)
+
+There exists other similar resources that authors could consider checking:
+
+- [edanz](https://www.edanz.com/journal-selector)
+- [Open Journal Matcher](https://ojm.ocert.at/)
+- [Journal Guide](https://www.journalguide.com/)
+- [IEEE](https://publication-recommender.ieee.org/home)
+- [flourishoa](http://flourishoa.org/)
+- [EndNote](https://endnote.com/product-details/manuscript-matcher/)
+
+
+## Refining the scope of your search {-}
+
+- Authors should check carefully if the journal has a mandatory open access fee or article processing cost (APC). Often these fees can be very high. If authors do not have a source of funding for these fees, they should aim for subscription based journals.
+- Other refinement criteria includes
+  - Time to decision / publication (how long the journal takes to process the article)
+  - CiteScore or Impact factor (IF) of the journal (IF is a measure of importance of a journal by calculating the number of times it's articles are cited)
+  - Acceptance rate (among the articles that are submitted in the journal, how many of them are eventually accepted in the journal)
+- Authors should be aware that there exists many [predatory journals](https://en.wikipedia.org/wiki/Predatory_publishing), and they should avoid choosing them. 
+

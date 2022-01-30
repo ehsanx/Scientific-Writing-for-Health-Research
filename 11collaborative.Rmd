@@ -1,15 +1,23 @@
-# Collaborative Tools
+# Collaborative & Formatting Tools
+
+Other than the collaborative writing software or tools mentioned earlier(e.g., Google Docs, or the “tracked changes” tool in Microsoft Word), there exists a number of collaborative and formatting tools that can be very helpful in the manuscript writing process. 
 
 
 ## Rmarkdown
 
-Here is a brief tutorial on how to use RMarkdown to mix code and text together to create a reproducible article, with citation, tables and figures, i.e., how to use Rmarkdown as a tool to write scientific documents.
+Below is a brief tutorial on how to use RMarkdown to mix code and text together to create a reproducible article, with citation, tables and figures, i.e., how to use Rmarkdown as a tool to write scientific documents.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DWxDWyqWnX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## GitHub
 
-Here is a video about how to use GitHub in collaboration with RStudio and R to write and update scientific documents. In the description of the video, you can find a table of content, and able to click on the respective sections.
+Below is a video about how to use GitHub in collaboration with RStudio and R to write and update scientific documents. In the description of the video, you can find a table of content, and able to click on the respective sections.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pKV1mp-AcJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Formatting tools
+
+Usually the formatting options are explained in the journal's website, often providing necessary word and LaTeX templates. Rmarkdown users often use [rticles](https://pkgs.rstudio.com/rticles/) that includes a suite of custom R Markdown LaTeX formats and templates for various journals. 
+
+There are some journals, that allows authors to submit in any format of their choice for the first submission. Here is an example of [Your Paper, Your Way (YPYW)](https://www.elsevier.com/authors/tools-and-resources/your-paper-your-way) resource from Elsevier. For YOYW, only when a paper is requested for revision, authors are requested to use the format specified by the journal.
