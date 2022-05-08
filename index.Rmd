@@ -64,6 +64,12 @@ We also acknowledge the [GTA allocation from SPPH](https://www.spph.ubc.ca/) for
 
 Initial outlines were created for SPPH 504-007 during 2018-2021. In 2021, though OER Fund Rapid Innovation Grant (together with [Dr. Suborna Ahmed](https://forestry.ubc.ca/faculty-profile/suborna-ahmed/)) and Work Learn program, a GRA was hired to convert the outlines to drafts, that were revised and updated by other contributors.
 
+```{r echo=FALSE, include = FALSE}
+blogdown::shortcode(
+  "tweet", user = "ehsan7x", id = "1485766506474397696"
+)
+```
+
 ## Contributor list {-}
 
 |||
